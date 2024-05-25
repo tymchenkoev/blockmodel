@@ -1,0 +1,54 @@
+.item::before {
+    content: '';
+  width: 20px;
+  height: 20px; 
+  background-color: aquamarine; 
+  display: inline-block;
+  border-radius: 50%;
+}
+
+
+.item::after {
+    content: '\2764';
+    color: aquamarine;
+    background-color: chocolate;
+}
+.inline1 {
+    background-color: brown;
+    width: 50px;
+    height: 300px;
+    margin: 20px;
+   
+}
+
+
+.inline2 {
+    background-color: coral;
+
+
+}
+
+
+
+
+
+.block1 {
+
+background-color: blue;
+width: 300px;
+height: 300px;
+padding: 30px;
+border: 3px solid red;
+margin: 20px ;
+display: inline-block;
+}
+
+.block2 {
+    background-color: aquamarine;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    margin: 30px;
+    border: 3px dashed orchid;
+    display: inline-block;
+}
